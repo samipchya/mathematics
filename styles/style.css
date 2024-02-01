@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+nav {
+    background-color: rgb(53, 97, 97);
+    padding: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-weight: 9000;
+    font-size: 25px;
+    /* position: fixed; */
+    color: azure;
+    text-shadow: gray 5px 5px 5px;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-color: rgb(74, 125, 142); */
+    background-image: linear-gradient(rgba(25, 25, 25, 0.99999),
+            rgba(20, 20, 20, 0.5)), url("//imgs/mathsBG.jpg")
+}
+
+.container {
+    /* width: fit-content; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 20px 15px;
+    flex-direction: column;
+    box-shadow: rgb(39, 34, 34) 5px 10px 5px;
+    transition: all 0.6s
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+.solveBtn {
+    border: none;
+    background: #15713d;
+    color: white;
+    margin: 5px;
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+    outline: none;
+}
+
+.solveBtn:hover {
+    background-color: #21c367;
+}
+
+.semi-container {
+    margin: 5px;
+}
+
+.semi-container input {
+    width: 70px;
+    outline: none;
+}
+
+.textArea::-webkit-inner-spin-button,
+.textArea::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.calculateBtn{
+    border: none;
+    background: #15713d;
+    color: white;
+    margin: 5px;
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.calculateBtn:hover{
+    background-color: #21c367;
+}
+
+.calculateBtn a{
+    text-decoration: none;
+    color: white;
+}

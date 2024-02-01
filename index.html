@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Measure the area of a triangle</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Phesla Maths</h1>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Area of Equilateral Triangle</h2>
+        <div class="semi-container">
+            <input type="number" name="" class="textArea" id="equilateralTextArea" placeholder="(a)">
+        </div>
+        <h4 id="equilateralOutputText">Output</h4>
+        <button id="equilateralBtn" class="solveBtn" onclick="equilateralCalculations()">Solve</button>
+    </div>
+    <div class="container">
+        <h2>Isosceles Triangle</h2>
+        <div class="semi-container">
+            <input type="text" name="" id="isoscelesTextArea_a" class="textArea" placeholder="(a)">
+            <input type="text" name="" id="isoscelesTextArea_b" class="textArea" placeholder="(b)">
+        </div>
+        <h4 id="isoscelesOutputText">Output</h4>
+        <button id="isoscelesBtn" class="solveBtn" onclick="isoscelesCalculations()">Solve</button>
+    </div>
+    <div class="container">
+        <h2>Scalene Triangle</h2>
+        <div class="semi-container">
+            <input type="text" name="" id="scaleneTextArea_a" class="textArea" placeholder="(a)">
+            <input type="text" name="" id="scaleneTextArea_b" class="textArea" placeholder="(b)">
+            <input type="text" name="" id="scaleneTextArea_c" class="textArea" placeholder="(c)">
+        </div>
+        <h4 id="scaleneOutputText">Output</h4>
+        <button id="scaleneBtn" class="solveBtn" onclick="scaleneCalculations()">Solve</button>
+    </div>
+    <div class="container">
+        <h2>Calculator</h2>
+        <button class="CalculateBtn"><a href="calculator.html">Calculate</a></button>
+    </div>
+    <script src="JavaScripts/script.js"></script>
+</body>
+
+</html>
